@@ -1,5 +1,5 @@
 /*   STEP 1   */
-export const leagueID = "863484262094057472"; // your league ID
+export const leagueID = "931718507316789248"; // your league ID
 export const leagueName = "League of Ordinary Gentlemen"; // your league name
 export const dues = 100; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
@@ -20,8 +20,8 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-      "managerID": "586261798596952064",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "tylerjimmer",
+      "managerID": "585951343542317056",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "Hochfelder",
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -34,19 +34,47 @@ export const managers = [
       "tradingScale": 10, // 1 - 10 (optional)
     },    
     {
-      "managerID": "608469926453268480",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "antprice07",
+      "managerID": "586261738475798528",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "S1Ramco",
+      "bio": "Lorem ipsum...",
+      "photo": "/managers/s1ramco.png", // square ratio recommended (no larger than 500x500)
+      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "rival": {
+        name: "antprice07", // Can be anything (usually your rival's name)
+        link: 3, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/antprice07.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "philosophy": "Your fantasy team's philosophy", // (optional)
+      "tradingScale": 10, // 1 - 10 (optional)
+    }, 
+    {
+      "managerID": "586261798596952064",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "tylerjimmer",
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Rival", // Can be anything (usually your rival's name)
-        link: 0, // manager array number within this array, or null to link back to all managers page
+        link: 1, // manager array number within this array, or null to link back to all managers page
         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "philosophy": "Your fantasy team's philosophy", // (optional)
       "tradingScale": 10, // 1 - 10 (optional)
-    }, 
+    },
+    {
+      "managerID": "608469926453268480",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "antprice07",
+      "bio": "Lorem ipsum...",
+      "photo": "/managers/antprice07.png", // square ratio recommended (no larger than 500x500)
+      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "rival": {
+        name: "S1Ramco", // Can be anything (usually your rival's name)
+        link: 1, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/s1ramco.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "philosophy": "Your fantasy team's philosophy", // (optional)
+      "tradingScale": 10, // 1 - 10 (optional)
+    },
     {
       "managerID": "608470980586708992",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "CornOnTheQuob",
@@ -62,8 +90,8 @@ export const managers = [
       "tradingScale": 10, // 1 - 10 (optional)
     },
     {
-      "managerID": "732813657544708096",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "ColinBull2018",
+      "managerID": "726849308896382976",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "marshallward",
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -76,10 +104,10 @@ export const managers = [
       "tradingScale": 10, // 1 - 10 (optional)
     },
     {
-      "managerID": "737110358485032960",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "jroyhoward",
+      "managerID": "732813657544708096",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "ColinBull2018",
       "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/colinbull2018.png", // square ratio recommended (no larger than 500x500)
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Rival", // Can be anything (usually your rival's name)
@@ -93,7 +121,7 @@ export const managers = [
       "managerID": "737125073349206016",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "CallMeSkitch",
       "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/CallMeSkitch.png", // square ratio recommended (no larger than 500x500)
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Rival", // Can be anything (usually your rival's name)
@@ -107,7 +135,7 @@ export const managers = [
       "managerID": "859937927931772928",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Macintosh69420",
       "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/Macintosh69420.png", // square ratio recommended (no larger than 500x500)
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Rival", // Can be anything (usually your rival's name)
@@ -118,10 +146,10 @@ export const managers = [
       "tradingScale": 10, // 1 - 10 (optional)
     },
     {
-      "managerID": "863604240738787328",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "samuelhoskins",
+      "managerID": "863510215373496320",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "dDebo531",
       "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/ddebo531.jpg", // square ratio recommended (no larger than 500x500)
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Rival", // Can be anything (usually your rival's name)
@@ -130,35 +158,7 @@ export const managers = [
       },
       "philosophy": "Your fantasy team's philosophy", // (optional)
       "tradingScale": 10, // 1 - 10 (optional)
-    },
-    {
-      "managerID": "586261738475798528",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "S1Ramco",
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 1, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "philosophy": "Your fantasy team's philosophy", // (optional)
-      "tradingScale": 10, // 1 - 10 (optional)
-    },
-    {
-      "managerID": "585951343542317056",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "Hochfelder",
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 1, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "philosophy": "Your fantasy team's philosophy", // (optional)
-      "tradingScale": 10, // 1 - 10 (optional)
-    } 
+    }  
   ]
   
   
