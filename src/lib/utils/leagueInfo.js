@@ -162,6 +162,7 @@ export const managers = [
       },
       "philosophy": "Your fantasy team's philosophy", // (optional)
       "tradingScale": 10, // 1 - 10 (optional)
+      "preferredContact": "Sleeper"
     }  
   ]
   
