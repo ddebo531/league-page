@@ -23,7 +23,7 @@ export const managers = [
       "managerID": "585951343542317056",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Hochfelder",
       "bio": "Lorem ipsum...",
-      "photo": "/managers/hoch.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/hoch.png", // square ratio recommended (no larger than 500x500)
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Rival", // Can be anything (usually your rival's name)
@@ -51,7 +51,7 @@ export const managers = [
       "managerID": "586261798596952064",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "tylerjimmer",
       "bio": "Lorem ipsum...",
-      "photo": "/managers/jimmer.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/jimmer.png", // square ratio recommended (no larger than 500x500)
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Rival", // Can be anything (usually your rival's name)
@@ -79,7 +79,7 @@ export const managers = [
       "managerID": "608470980586708992",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "CornOnTheQuob",
       "bio": "Lorem ipsum...",
-      "photo": "/managers/quob.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/quob.png", // square ratio recommended (no larger than 500x500)
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Rival", // Can be anything (usually your rival's name)
@@ -93,7 +93,7 @@ export const managers = [
       "managerID": "726849308896382976",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "marshallward",
       "bio": "Lorem ipsum...",
-      "photo": "/managers/marshall.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/marshall.png", // square ratio recommended (no larger than 500x500)
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Rival", // Can be anything (usually your rival's name)
